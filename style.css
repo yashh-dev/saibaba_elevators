@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+    --ff-primary: 'Playfair Display', serif;
+    --ff-secondary: 'Lato', sans-serif;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+    font-family:var(--ff-secondary) ;
+    font-weight: 400;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/background.jpeg);
+    background-size: cover;
+    font-family: var(--ff-primary);
+}
+header h2{
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    font-size: 60px;
+    padding-left: 7%;
+    width: 80%;
+    top:30%
+}
+.filter{
+    height: 100vh;
+    width :100%;
+    position: absolute;
+    top :0;
+    left:0;
+    background-color:  rgba(0, 0, 0, 0.60);
+    filter: blur(5px);
+}
+
+.title{
+    position: absolute;
+    color: white;
+    width: 100%;
+    padding-top: 40px;
+}
+.title img{
+    height: 90px;
+    padding-left: 7%;
+    padding-right:40px ;
+}
+.title h1{
+    font-size: 38px;
+    font-weight: 400;
+    display: inline-block;
+    position: absolute;
+    bottom: 2px;
+}
+.giveacall{
+    position: absolute;
+    color:white ;
+    top: 60%;
+    font-size: 25px;
+    padding: 0.6em 2.8em;
+    background: rgba(5, 5, 5, 0.52);
+    box-shadow: 4px 4px 9px 0px rgba(255, 255, 255, 0.25);
+
+ }
+.giveacall:hover{
+    background: rgba(5, 5, 5,.7);
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+section{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 100px;
+}
+section h2{
+    font-family: var(--ff-primary);
+    font-size: 60px;
+    font-weight: 400;
+}
+td{
+    font-size: 24px;
+}
+.head{
+    color: #5A4242;
+    font-weight: bold;
+}
+table{
+    padding-top: 40px;
+    border-spacing: 10vw 30px;
+}
+h3{
+    font-family: var(--ff-primary);
+    font-size: 38px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.types{
+display: flex;
+align-items: center;
+padding: 3em 0;
+
+}
+.content{
+    flex: 1;
+}
+.content h4{
+    font-family: var(--ff-primary);
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.imgcontainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.imgcontainer img{
+    height: 25vh;
+    max-width: 20vw;
+    margin: 0 auto;
+}
