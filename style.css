@@ -222,6 +222,13 @@ footer p{
     .imgcontainer{
 display: none;
     }
-    
-    
+    .sec-title{
+        font-size: 32px;
+    }
+    td{
+        font-size: 14px;
+    }
+    .sub-title{
+        font-size: 28px;
+    }
 }
