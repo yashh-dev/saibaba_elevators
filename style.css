@@ -21,6 +21,7 @@ header{
     width: 100%;
     background-image: url(./images/background.jpeg);
     background-size: cover;
+    background-position: center;
     font-family: var(--ff-primary);
 }
 header h2{
