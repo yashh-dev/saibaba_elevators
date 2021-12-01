@@ -11,7 +11,7 @@
     --ff-primary: 'Playfair Display', serif;
     --ff-secondary: 'Lato', sans-serif;
     --clr-light: #fff;
-    --clr-dark: #5A4242;
+    --clr-dark: #1579EF;
     --clr-accent: #16e0bd;
     font-family:var(--ff-secondary) ;
     font-weight: 400;
@@ -175,7 +175,7 @@ width: 25%;
 .downbox{
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 footer{
@@ -208,7 +208,29 @@ footer p{
     padding-bottom:10px ;
 }
 
-
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.project{
+    font-family: var(--ff-secondary);
+    width: 50%;
+    padding: 1em;
+}
+.project h5{
+    font-size: 18px;
+}
+.project h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+.project p{
+    font-size: 18px;
+    font-weight: 300;
+}
 @media (max-width:750px){
     header h2{
         font-size: 40px;
